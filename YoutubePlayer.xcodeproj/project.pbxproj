@@ -3,23 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17425C7CDEDCD7998A7BCD2E /* Pods_YoutubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C2BB1FFC5805995E3FC1E9 /* Pods_YoutubePlayer.framework */; };
 		7BBA199825F4A0740060EE87 /* YoutubePlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA199725F4A0740060EE87 /* YoutubePlayerApp.swift */; };
 		7BBA199A25F4A0740060EE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA199925F4A0740060EE87 /* ContentView.swift */; };
 		7BBA199C25F4A0760060EE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBA199B25F4A0760060EE87 /* Assets.xcassets */; };
 		7BBA199F25F4A0760060EE87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBA199E25F4A0760060EE87 /* Preview Assets.xcassets */; };
+		7BBA19A825F4A0820060EE87 /* YoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA19A725F4A0820060EE87 /* YoutubePlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F80C772CFCBD7EA24B65DC /* Pods-YoutubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer.release.xcconfig"; path = "Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer.release.xcconfig"; sourceTree = "<group>"; };
 		7BBA199425F4A0740060EE87 /* YoutubePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBA199725F4A0740060EE87 /* YoutubePlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayerApp.swift; sourceTree = "<group>"; };
 		7BBA199925F4A0740060EE87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BBA199B25F4A0760060EE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BBA199E25F4A0760060EE87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BBA19A025F4A0760060EE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BBA19A725F4A0820060EE87 /* YoutubePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubePlayer.swift; sourceTree = "<group>"; };
+		F7C2BB1FFC5805995E3FC1E9 /* Pods_YoutubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F11E0AD92F03D2F7920223 /* Pods-YoutubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer.debug.xcconfig"; path = "Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17425C7CDEDCD7998A7BCD2E /* Pods_YoutubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B40014A80A9B5CC330B360F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C2BB1FFC5805995E3FC1E9 /* Pods_YoutubePlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7BBA198B25F4A0740060EE87 = {
 			isa = PBXGroup;
 			children = (
 				7BBA199625F4A0740060EE87 /* YoutubePlayer */,
 				7BBA199525F4A0740060EE87 /* Products */,
+				998656CEFA404BBD110F1F4D /* Pods */,
+				7B40014A80A9B5CC330B360F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +71,7 @@
 			children = (
 				7BBA199725F4A0740060EE87 /* YoutubePlayerApp.swift */,
 				7BBA199925F4A0740060EE87 /* ContentView.swift */,
+				7BBA19A725F4A0820060EE87 /* YoutubePlayer.swift */,
 				7BBA199B25F4A0760060EE87 /* Assets.xcassets */,
 				7BBA19A025F4A0760060EE87 /* Info.plist */,
 				7BBA199D25F4A0760060EE87 /* Preview Content */,
@@ -69,6 +87,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		998656CEFA404BBD110F1F4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7F11E0AD92F03D2F7920223 /* Pods-YoutubePlayer.debug.xcconfig */,
+				57F80C772CFCBD7EA24B65DC /* Pods-YoutubePlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BBA19A325F4A0760060EE87 /* Build configuration list for PBXNativeTarget "YoutubePlayer" */;
 			buildPhases = (
+				24CB026CC47D76E9D547B5ED /* [CP] Check Pods Manifest.lock */,
 				7BBA199025F4A0740060EE87 /* Sources */,
 				7BBA199125F4A0740060EE87 /* Frameworks */,
 				7BBA199225F4A0740060EE87 /* Resources */,
+				323ACC98F244681680CE4B08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24CB026CC47D76E9D547B5ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubePlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323ACC98F244681680CE4B08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BBA199025F4A0740060EE87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +211,7 @@
 			files = (
 				7BBA199A25F4A0740060EE87 /* ContentView.swift in Sources */,
 				7BBA199825F4A0740060EE87 /* YoutubePlayerApp.swift in Sources */,
+				7BBA19A825F4A0820060EE87 /* YoutubePlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,6 +336,7 @@
 		};
 		7BBA19A425F4A0760060EE87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F11E0AD92F03D2F7920223 /* Pods-YoutubePlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +359,7 @@
 		};
 		7BBA19A525F4A0760060EE87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F80C772CFCBD7EA24B65DC /* Pods-YoutubePlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
